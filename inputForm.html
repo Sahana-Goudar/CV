@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h3>Input form</h3>
+  <form class="" action="index.html" method="post">
+    <label for="">Button: </label>
+    <input class="" type="button" value="button"><br>
+    <label for="">Checkbox: </label>
+    <input type="checkbox"><br>
+    <input type="color" id="red" name="red" value="#e66465">
+    <label for="head">Color</label><br>
+    <label for="start">date: </label>
+    <input type="date" id="start" name="trip-start"><br>
+    <label for="file">Choose file to upload</label>
+    <input type="file" accept=".png, .jpeg, .pdf"><br>
+    <label for="pass">Password (8 characters minimum): </label>
+    <input type="password" id="pass" name="password" minlength="8" required>
+    <input type="submit" value="Sign in">
+    <h4>Radio Input</h4>
+    <p>Please select your preferred contact method:</p>
+    <input type="radio" id="contactChoice1" name="contact" value="email">
+    <label for="contactChoice1">Email</label>
+    <input type="radio" id="contactChoice2" name="contact" value="phone">
+    <label for="contactChoice2">Phone</label><br>
+    <input type="range" min="0" max="100" value="65" step="10">
+    <label for="Range">range</label><br><br>
+    <label for="id">User ID:</label>
+    <input type="text" id="id" name="id" />
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit"><br><br>
+    <input type="search" id="mySearch" name="q" placeholder="Search the site..." required>
+    <button>Search</button><br><br>
+    <label for="url">Enter an https:// URL:</label>
+
+    <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required>
+  </form>
+
+</body>
+
+</html>
